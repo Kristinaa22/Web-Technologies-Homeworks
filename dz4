@@ -3,6 +3,8 @@ $profession = "Analyst" ;
 $location = " Saint-Peterburg, Russia " ;
 $email = " m.k@mail.ru " ;
 $tel = " +79883126745 " ;
+$age_years = "20";
+$age_days = 20*365;
 $skills = [" Adobe Photoshop " , " Photography " , " Illustrator " , " Media "];
 $level = [" 30% " , " 70% " , " 60% " , " 45% "] ;
 $experiencHead = " Опыт работы " ;
@@ -54,6 +56,8 @@ $description_3 = " Lorem ipsum dolor sit amet, consectetur adipisicing elit. "
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i><?php echo $location; ?></p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><?php echo $email; ?></p>
           <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i><?php echo $tel; ?></p>
+          <p><i class="fa fa-age fa-fw w3-margin-right w3-large w3-text-teal"></i><?php echo "{$age_years} years"?> </p>
+           <p><i class="fa fa-age fa-fw w3-margin-right w3-large w3-text-teal"></i><?php echo "Age in days: {$age_days}"?> </p>
           <hr>
 
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Навыки</b></p>
@@ -162,4 +166,6 @@ $description_3 = " Lorem ipsum dolor sit amet, consectetur adipisicing elit. "
 
 </body>
 </html>
+
+
 
